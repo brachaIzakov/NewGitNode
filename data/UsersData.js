@@ -1,4 +1,7 @@
+<<<<<<< HEAD:Data/UsersData.js
 
+=======
+>>>>>>> 402d1b2a60ae0b86e5fe61f7210879a8049d4f17:data/UsersData.js
 exports.Users_ar = [
     {
         "UserId":"1",
@@ -34,4 +37,8 @@ exports.Users_ar = [
         "UserEmail":"ruth@gmail.com",
         "UserPhone":"054854361" ,
         "UserDate":"10-10-2010"
+<<<<<<< HEAD:Data/UsersData.js
     }]
+=======
+    }]
+>>>>>>> 402d1b2a60ae0b86e5fe61f7210879a8049d4f17:data/UsersData.js
