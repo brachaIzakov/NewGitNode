@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+<<<<<<< HEAD
 const { Users_ar } = require("../data/UsersData")
 //const UserProfile = require("../UserProfile")
 router.get('/', (req, res) => {
@@ -51,3 +52,10 @@ router.post("/", async (req, res) => {
 })
 
 module.exports = router
+=======
+
+router.get('/',(req,res)=>{
+    res.json({messege:"run users from users"})
+})
+module.exports =router;
+>>>>>>> 0674819c8848eb3a8b403d216db7f5e0ae2e2f53

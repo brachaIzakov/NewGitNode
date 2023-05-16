@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "node Server.js"
+=======
+    "start": "node app.js"
+>>>>>>> 0674819c8848eb3a8b403d216db7f5e0ae2e2f53
   },
   "author": "",
   "license": "ISC",
