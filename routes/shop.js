@@ -1,7 +1,7 @@
 
 const express = require('express')
 const router = express.Router()
-const { prods_ar } = require('../data/UsersData')
+const { prods_ar } = require('../data/ShopData')
 const shopProfile = require("../shopProfile")
 
 router.get("/", (req, res) => {
