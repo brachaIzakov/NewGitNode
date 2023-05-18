@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test":"jest",
     "start": "node app.js"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "nodemon": "^2.0.22",
     "roter": "^0.0.3",
     "router": "^1.3.8"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
