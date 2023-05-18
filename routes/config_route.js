@@ -1,14 +1,8 @@
-const indexR = require("./index");
-const usersR = require("./users");
-const shopR = require("./shop");
 
+const usersR = require("../Controllers/UsersControllers");
 
 exports.routesInit = (app) =>{  
 
-    app.use("/",indexR)
-
     app.use("/users",usersR)
-
-    app.use("/shop",shopR)
 
 }
